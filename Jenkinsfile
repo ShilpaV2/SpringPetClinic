@@ -10,6 +10,7 @@ pipeline{
             git branch: 'main',
             credentialsId: '324ad7ae-8615-40f7-8d71-2b4b5735d0c4',
             url: 'https://github.com/ShilpaV2/SpringPetClinic.git'
+            echo 'checkout SCM done'
 }
 }
 stage('Build')
